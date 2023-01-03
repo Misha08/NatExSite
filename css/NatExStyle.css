@@ -1,0 +1,219 @@
+/* Nulling */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+header {
+  padding-top: 29px;
+  padding-bottom: 30px;
+}
+header ul {
+  display: inline-block;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #214E41;
+}
+header ul:first-child {
+  margin-left: 400px;
+}
+header button {
+  width: 137px;
+  height: 40px;
+  margin-left: 83.53px;
+  font-weight: 700;
+  border-radius: 6px;
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #43806C;
+  color: white;
+}
+
+.present-find {
+  width: 100%;
+  height: 720px;
+  background: url("../images/PrF.png");
+}
+.present-find .present-find__srch_inf {
+  position: absolute;
+  margin-top: 161px;
+  margin-left: 120px;
+  width: 518px;
+}
+.present-find .present-find__srch_inf h1 {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.present-find .present-find__srch_inf p {
+  display: block;
+  margin-top: 40px;
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 24px;
+}
+.present-find .present-find__srch_inf form {
+  display: block;
+  /* For input text*/
+}
+.present-find .present-find__srch_inf form ::-webkit-input-placeholder {
+  color: #222222;
+}
+.present-find .present-find__srch_inf form INPUT[type=text] {
+  color: #222222;
+}
+.present-find .present-find__srch_inf form input:first-child {
+  height: 60px;
+  padding: 20px 88px 20px 20px;
+  border-radius: 6px 0px 0px 6px;
+}
+.present-find .present-find__srch_inf form input:last-child {
+  position: relative;
+  bottom: 2px;
+  right: 5px;
+  height: 60px;
+  padding: 20px 35px 20px 35px;
+  border-radius: 0px 6px 6px 0px;
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: #43806C;
+  color: white;
+}
+
+.description-1 {
+  display: table;
+  position: relative;
+  margin: 0 auto 0 auto;
+  bottom: 100px;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 4px rgba(232, 230, 230, 0.6);
+          box-shadow: 4px 4px 4px rgba(232, 230, 230, 0.6);
+  border-radius: 6px;
+}
+.description-1 ul {
+  display: table;
+  position: relative;
+  top: 52px;
+  height: 170px;
+}
+.description-1 ul li {
+  display: inline-block;
+  padding: 0 45px 0 45px;
+}
+.description-1 ul li:nth-child(1):before {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  content: url("../../images/icons/ic1.png");
+}
+.description-1 ul li:nth-child(2):before {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  content: url("../../images/icons/ic2.png");
+}
+.description-1 ul li:nth-child(3):before {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  content: url("../../images/icons/ic3.png");
+}
+.description-1 ul li text {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #214E41;
+}
+.description-1 ul li text h5 {
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #214E41;
+}

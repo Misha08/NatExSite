@@ -1,0 +1,200 @@
+@import "NatExStyle_null.scss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+$Norm: 400;
+$Bold: 700;
+
+@mixin tex_stand($ff, $fs, $lh) {
+	font-family: $ff;
+	font-size: $fs;
+	line-height: $lh;
+}
+
+@mixin benef_tx($d, $ps, $mt) {
+	display: $d;
+	position: $ps;
+	margin-top: $mt;
+}
+
+// 1440px
+header {
+	padding-top: 29px;
+	padding-bottom: 30px;
+
+	ul {
+
+		display: inline-block;
+
+		li {
+
+			display: inline-block;
+
+			margin-right: 50px;
+
+			font-weight: $Bold;
+
+			@include tex_stand('Raleway', 14px, 20px);
+
+			letter-spacing: 0em;
+			text-align: left;
+			color: #214E41;
+		}
+	}
+
+	ul:first-child {
+		margin-left: 400px;
+	}
+
+	button {
+		width: 137px;
+		height: 40px;
+		margin-left: 83.53px;
+
+		font-weight: $Bold;
+		border-radius: 6px;
+
+		@include tex_stand('Raleway', 14px, 20px);
+
+		background-color: #43806C;
+
+		color: white;
+	}
+}
+
+.present-find {
+	width: 100%;
+	height: 720px;
+
+	background: url("../images/PrF.png");
+
+	.present-find__srch_inf {
+		position: absolute;
+
+		margin-top: 161px;
+		margin-left: 120px;
+
+		width: 518px;
+
+		h1 {
+
+			font-weight: $Bold;
+
+			@include tex_stand('Roboto', 36px, 46px);
+
+			color: #214E41;
+		}
+
+		p {
+			display: block;
+
+			margin-top: 40px;
+			font-weight: $Bold;
+
+			@include tex_stand('Raleway', 16px, 24px);
+		}
+
+		form {
+			display: block;
+			::-webkit-input-placeholder {
+				color: #222222;
+			}
+
+			/* For input text*/
+			INPUT[type="text"] {
+				color: #222222;
+			}
+
+			input:first-child {
+				height: 60px;
+
+				padding: 20px 88px 20px 20px;
+				border-radius: 6px 0px 0px 6px;
+			}
+
+			input:last-child {
+				position: relative;
+
+				bottom: 2px;
+				right: 5px;
+
+
+				height: 60px;
+
+				padding: 20px 35px 20px 35px;
+				border-radius: 0px 6px 6px 0px;
+
+				@include tex_stand('Raleway', 13px, 20px);
+
+				font-weight: $Bold;
+
+				background-color: #43806C;
+				color: white;
+			}
+
+		}
+	}
+}
+
+.description-1 {
+	display: table;
+	position: relative;
+
+	margin: 0 auto 0 auto;
+	bottom: 100px;
+
+	background-color: white;
+	box-shadow: 4px 4px 4px rgba(232, 230, 230, 0.6);
+	border-radius: 6px;
+
+	ul {
+		display: table;
+		position: relative;
+		top: 52px;
+
+		height: 170px;
+
+		li {
+			display: inline-block;
+			padding: 0 45px 0 45px;
+
+			&:nth-child(1):before {
+
+				@include benef_tx(inline-block, relative, 10px);
+
+				content: url("../../images/icons/ic1.png");
+			}
+
+			&:nth-child(2):before {
+
+				@include benef_tx(inline-block, relative, 10px);
+
+				content: url("../../images/icons/ic2.png");;
+			}
+
+			&:nth-child(3):before {
+
+				@include benef_tx(inline-block, relative, 10px);
+
+				content: url("../../images/icons/ic3.png");;
+			}
+
+			text {
+
+				display: inline-block;
+				vertical-align: top;
+
+				h5 {
+					@include tex_stand('Raleway', 16px, 24px);
+
+					font-weight: $Norm;
+					color: #214E41;
+				}
+
+				@include tex_stand('Raleway', 14px, 20px);
+
+				font-weight: $Norm;
+				color: #214E41;
+			}
+		}
+	}
+}
