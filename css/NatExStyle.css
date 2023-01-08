@@ -214,6 +214,172 @@ header button {
   font-family: "Raleway";
   font-size: 16px;
   line-height: 24px;
+}
+
+.explain-1 {
+  display: table;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.explain-1 .explain-1__text {
+  display: inline-block;
+  width: 478px;
+}
+.explain-1 .explain-1__text h6 {
+  display: block;
+  font-weight: 400;
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+}
+.explain-1 .explain-1__text h2 {
+  display: block;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 36px;
+  line-height: 40px;
+  color: #214E41;
+}
+.explain-1 .explain-1__text text {
+  display: block;
+  margin-top: 34px;
+  font-weight: 400;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+}
+.explain-1 .explain-1__text button {
+  width: 107px;
+  height: 36px;
+  text-align: center;
+  display: block;
+  margin-top: 24px;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02px;
+  background-color: white;
+  color: #214E41;
+}
+.explain-1 .diogram {
+  display: inline-block;
+  margin-left: 51px;
+}
+.explain-1 .diogram .diogram__diog_text {
+  display: inline-block;
+  width: 224px;
+}
+.explain-1 .diogram .diogram__diog_text p {
+  display: block;
+  font-family: "Roboto";
+  font-size: 70px;
+  line-height: 90px;
+  font-weight: 700;
+  color: #214E41;
+}
+.explain-1 .diogram .diogram__diog_text .diog_text__text {
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.02px;
+  color: #214E41;
+}
+.explain-1 .diogram .diogram__diogram {
+  display: inline-block;
+  position: relative;
+  margin-left: 51px;
+  top: 30px;
+}
+.explain-1 .diogram .diogram__diogram .diogram__deductible {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.explain-1 .diogram .diogram__diogram .diogram__annual-max {
+  display: inline-block;
+  margin-left: 40px;
+}
+.explain-1 .diogram .diogram__summarize {
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #757575;
+}
+.explain-1 .diogram .diogram__money {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #214E41;
+}
+.explain-1 .diogram .diogram__diog_text {
+  position: relative;
+  bottom: 20px;
+}
+.explain-1 .diogram .diogram__name {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #214E41;
+}
+
+.explain-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.explain-2 .explain-2__section-1 {
+  display: inline-block;
+  padding: 120px 200px 129px 120px;
+  width: 50%;
+  height: 640px;
+  background-color: #E3EEED;
+}
+.explain-2 .explain-2__section-1 .section-1__text {
+  width: 345px;
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 400;
+  color: #43806C;
+}
+.explain-2 .explain-2__section-1 .section-1__text .text_big {
+  display: inline;
+  font-weight: 700;
+  color: #214E41;
+}
+.explain-2 .explain-2__section-2 {
+  display: inline-block;
+  width: 50%;
+  height: 640px;
+  background-color: #214E41;
+}
+.explain-2 .explain-2__section-2 .section-2__text {
+  font-family: "Raleway";
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 0.02px;
+  font-weight: 400;
+  color: white;
+}
+.explain-2 .explain-2__h {
+  padding-bottom: 29px;
+  font-family: "Raleway";
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
   font-weight: 400;
   color: #214E41;
 }

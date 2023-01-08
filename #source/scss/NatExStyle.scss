@@ -185,9 +185,6 @@ header {
 
 				h5 {
 					@include tex_stand('Raleway', 16px, 24px);
-
-					font-weight: $Norm;
-					color: #214E41;
 				}
 
 				@include tex_stand('Raleway', 14px, 20px);
@@ -197,4 +194,219 @@ header {
 			}
 		}
 	}
+}
+
+
+.explain-1 {
+	display: table;
+
+	height: 500px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	.explain-1__text {
+		display: inline-block;
+
+		width: 478px;
+
+		h6 {
+			display: block;
+
+			font-weight: $Norm;
+
+			@include tex_stand('Raleway', 13px, 20px);
+
+			letter-spacing: 0.05px;
+			text-transform: uppercase;
+		
+			color: #43806C;
+		}
+
+		h2 {
+			display: block;
+
+			margin-top: 20px;
+
+			font-weight: $Bold;
+
+			@include tex_stand('Roboto', 36px, 40px);
+
+			color: #214E41;
+		}
+
+		text {
+			display: block;
+
+			margin-top: 34px;
+			font-weight: $Norm;
+
+			@include tex_stand('Raleway', 18px, 30px);
+
+			letter-spacing: 0.02px;
+
+			color: #757575;
+		}
+
+		button {
+			width: 107px;
+			height: 36px;
+
+			text-align: center;
+
+			display: block;
+
+			margin-top: 24px;
+
+			@include tex_stand('Raleway', 18px, 18px);
+
+			font-weight: $Bold;
+			letter-spacing: 0.02px;
+
+			background-color: white;
+			color: #214E41;
+
+		}
+	}
+
+	.diogram {
+		display: inline-block;
+		margin-left: 51px;
+
+		.diogram__diog_text {
+			display: inline-block;
+			width: 224px;
+
+			p {
+				display: block;
+
+				@include tex_stand('Roboto', 70px, 90px);
+
+				font-weight: $Bold;
+
+				color: #214E41;
+			}
+
+			.diog_text__text {
+				@include tex_stand('Raleway', 13px, 22px);
+
+				font-weight: $Bold;
+				letter-spacing: 0.02px;
+
+				color: #214E41;
+			}
+		}
+
+		.diogram__diogram {
+			display: inline-block;
+			position: relative;
+
+			margin-left: 51px;
+			top: 30px;
+
+			.diogram__deductible {
+				display: inline-block;
+
+				vertical-align: bottom;
+			}
+
+			.diogram__annual-max {
+				display: inline-block;
+
+				margin-left: 40px;
+			}
+
+		}
+
+		.diogram__summarize {
+
+			@include tex_stand("Raleway", 13px, 22px);
+
+			font-weight: $Norm;
+			color: #757575;
+		}
+
+		.diogram__money {
+			text-align: center;
+
+			@include tex_stand("Raleway", 13px, 22px);
+
+			font-weight: $Norm;
+			color: #214E41;
+		}
+
+		.diogram__diog_text {
+			position: relative;
+			bottom: 20px;
+		}
+
+		.diogram__name {
+			text-align: center;
+
+			@include tex_stand('Raleway', 13px, 22px);
+
+			font-weight: $Bold;
+			color: #214E41;
+		}
+	}
+}
+
+
+.explain-2 {
+	display: flex;
+
+
+	.explain-2__section-1 {
+		display: inline-block;
+
+		padding: 120px 200px 129px 120px;
+
+		width: 50%;
+		height: 640px;
+		background-color: #E3EEED;
+
+		.section-1__text {
+			width: 345px;
+			@include tex_stand('Roboto', 32px, 42px);
+
+			font-weight: $Norm;
+			color: #43806C;
+
+			.text_big {
+				display: inline;
+
+				font-weight: $Bold;
+				color: #214E41;
+			}
+		}
+	}
+
+
+	.explain-2__section-2 {
+		display: inline-block;
+
+		width: 50%;
+		height: 640px;
+		background-color: #214E41;
+
+		.section-2__text {
+			@include tex_stand('Raleway', 20px, 34px);
+
+			letter-spacing: 0.02px;
+			font-weight: $Norm;
+			color: white;
+		}
+	}
+
+	.explain-2__h {
+		padding-bottom: 29px;
+
+		@include tex_stand('Raleway', 13px, 20px);
+
+		text-transform: uppercase;
+
+		font-weight: $Norm;
+		color: #214E41;
+	}
+
 }
